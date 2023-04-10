@@ -1,6 +1,3 @@
 # heaps-and-floating-numbers
 
-An implementations of heaps data structure based on existing implementations.
-First, the user is giving as input a number.
-After some calculations, float numbers (random) are stored in a min-heap and afterwards two numbers a time are excluded form the heap, while their sum is held in a variable. After each exclusion the heap should be rearranged.
-By the end of this procedure the sum of all float numbers is shown as an output to the user.
+An implementation of the heap data structure based on existing implementations. First, the user inputs a number. After some calculations, float numbers (random) are stored in a min-heap. Then, two numbers are removed from the heap at a time, and their sum is stored in a variable. After each removal, the heap is rearranged to maintain the heap property. At the end of this procedure, the sum of all float numbers in the heap is displayed as an output to the user.
